@@ -3,7 +3,7 @@ from piper.models.pipeline import Pipeline, RUN_IN_ONE_DATACENTER
 from piper.tasks.python_task import PythonTask
 
 # Import your task function here (adjust import path after creating tasks file)
-from pipelines.core.gss-piper-bhavneet.QB_to_Sheets.tasks.qbtosheets import run_query_and_export_to_gsheet
+from data_piper_core_pipelines.core.gss_piper_bhavneet.QB_to_Sheets.tasks.update_data import update_google_sheets_data
 
 
 default_args = {
@@ -19,7 +19,7 @@ default_args = {
 }
 
 pipeline = Pipeline(
-    pipeline_id='run_query_and_export_to_gsheet',
+    pipeline_id='update_google_sheets_data',
     default_args=default_args,
     start_date=default_args['start_date'],
     datacenter_choice_mode=RUN_IN_ONE_DATACENTER,
@@ -29,6 +29,6 @@ pipeline = Pipeline(
 
 run_query_and_export_task = PythonTask(
     task_id='task_1',
-    python_callable=run_query_and_export_to_gsheet,
+    python_callable=update_google_sheets_data,
     pipeline=pipeline
 )
