@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 from dateutil.relativela import relativedelta
 from query_runner_library import QueryRunner
 from query_runner_library import QueryRunnerException
-from data_piper_core_pipelines.core.gss_piper_bhavneet.utils.gsheet import load_credentials
+from pipelines.core.gss_piper_bhavneet.utils.gsheet import load_credentials
 import getpass
 
 
@@ -107,7 +107,7 @@ def update_google_sheets_data(sheet_key: str):
 
         # Open the specified Google Sheet
         sheet = gc.open_by_key(sheet_key)
-        print(f"Successfully opened Google Sheet: {sheet.title}")
+        print(f"Successfully opened Google Sheet: {'QB_to_Sheets'}")
 
     except Exception as e:
         logging.error(f"Google Sheets authentication or sheet opening failed: {e}", exc_info=True)
@@ -125,7 +125,7 @@ def update_google_sheets_data(sheet_key: str):
         # Process each destination in the dictionary
         for task_name, mapping in DATAFRAME_DESTINATIONS.items():
             try:
-                # 4. Define start cell mapping dynamically using the task_name
+                #  Define start cell mapping dynamically using the task_name
                 worksheet_name = mapping['worksheet_name']
                 start_cell = mapping['cell']
 

@@ -3,7 +3,7 @@ from piper.models.pipeline import Pipeline, RUN_IN_ONE_DATACENTER
 from piper.tasks.python_task import PythonTask
 
 # Import your task function here (adjust import path after creating tasks file)
-from data_piper_core_pipelines.core.gss_piper_bhavneet.QB_to_Sheets.tasks.update_data import update_google_sheets_data
+from pipelines.core.gss_piper_bhavneet.QB_to_Sheets.tasks.update_data import update_google_sheets_data
 
 
 default_args = {
