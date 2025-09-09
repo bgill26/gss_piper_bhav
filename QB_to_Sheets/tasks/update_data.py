@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import re # Added for regular expression matching
 from queryrunner_client import Client
-import pandas_gbq
 import requests
 import json
 import pygsheets
