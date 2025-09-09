@@ -12,6 +12,8 @@ import logging
 import numpy as np
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
+from query_runner_library import QueryRunner
+from query_runner_library import QueryRunnerException
 from pipelines.core.gss_piper_bhavneet.utils.gsheet import load_credentials
 import getpass
 
@@ -22,7 +24,7 @@ scope = ['https://www.googleapis.com/auth/spreadsheets.readonly',
          'https://spreadsheets.google.com/feeds'
          ]
 
-
+qr = QueryRunner()
 logging = config.get_logger('piper')
 
 # CONFIG FILE PATH
