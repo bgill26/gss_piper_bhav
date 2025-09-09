@@ -11,9 +11,7 @@ from piper.utils import config_helper
 import logging
 import numpy as np
 from datetime import datetime, timedelta
-from dateutil.relativela import relativedelta
-from query_runner_library import QueryRunner
-from query_runner_library import QueryRunnerException
+from dateutil.relativedelta import relativedelta
 from pipelines.core.gss_piper_bhavneet.utils.gsheet import load_credentials
 import getpass
 
