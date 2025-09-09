@@ -22,7 +22,7 @@ scope = ['https://www.googleapis.com/auth/spreadsheets.readonly',
          'https://spreadsheets.google.com/feeds'
          ]
 
-qr = QueryRunner()
+
 logging = config.get_logger('piper')
 
 # CONFIG FILE PATH
