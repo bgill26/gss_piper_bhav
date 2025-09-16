@@ -73586,3 +73586,15 @@ ModuleNotFoundError: No module named 'query_runner_library'
 2025-09-15 09:39:24,530 - 1853642 - piper - INFO - Metadata Database in the other env is configured to uber@127.0.0.1:3306/piper_test
 2025-09-15 09:39:24,531 - 1853642 - piper - INFO - Multi DC Database Master is configured to uber@127.0.0.1:3306/multi_dc_test
 2025-09-15 09:39:24,531 - 1853642 - piper - INFO - Multi DC Database Slave is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-16 09:53:59,341 - 2605021 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-16 09:53:59,347 - 2605021 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-16 09:54:00,541 - 2605195 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-16 09:54:00,543 - 2605195 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-16 09:54:00,934 - 2605195 - piper.models - INFO - Working on test environment
+2025-09-16 09:54:00,934 - 2605195 - piper.models - INFO - Piper Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-16 09:54:00,934 - 2605195 - piper.models - INFO - Piper Slave Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-16 09:54:01,682 - 2605195 - raven.contrib.tornado.AsyncSentryClient - INFO - Raven is not configured (logging is disabled). Please see the documentation for more information.
+2025-09-16 09:54:02,329 - 2605195 - piper - INFO - Using executor LocalExecutor
+2025-09-16 09:54:02,524 - 2605195 - piper - INFO - Metadata Database in the other env is configured to uber@127.0.0.1:3306/piper_test
+2025-09-16 09:54:02,525 - 2605195 - piper - INFO - Multi DC Database Master is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-16 09:54:02,525 - 2605195 - piper - INFO - Multi DC Database Slave is configured to uber@127.0.0.1:3306/multi_dc_test
