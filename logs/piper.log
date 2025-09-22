@@ -73610,3 +73610,39 @@ ModuleNotFoundError: No module named 'query_runner_library'
 2025-09-16 10:10:52,302 - 2626304 - piper - INFO - Metadata Database in the other env is configured to uber@127.0.0.1:3306/piper_test
 2025-09-16 10:10:52,303 - 2626304 - piper - INFO - Multi DC Database Master is configured to uber@127.0.0.1:3306/multi_dc_test
 2025-09-16 10:10:52,303 - 2626304 - piper - INFO - Multi DC Database Slave is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-18 09:54:40,182 - 4146844 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-18 09:54:40,189 - 4146844 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-18 09:54:41,369 - 4147054 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-18 09:54:41,370 - 4147054 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-18 09:54:41,756 - 4147054 - piper.models - INFO - Working on test environment
+2025-09-18 09:54:41,756 - 4147054 - piper.models - INFO - Piper Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-18 09:54:41,756 - 4147054 - piper.models - INFO - Piper Slave Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-18 09:54:42,580 - 4147054 - raven.contrib.tornado.AsyncSentryClient - INFO - Raven is not configured (logging is disabled). Please see the documentation for more information.
+2025-09-18 09:54:43,211 - 4147054 - piper - INFO - Using executor LocalExecutor
+2025-09-18 09:54:43,412 - 4147054 - piper - INFO - Metadata Database in the other env is configured to uber@127.0.0.1:3306/piper_test
+2025-09-18 09:54:43,412 - 4147054 - piper - INFO - Multi DC Database Master is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-18 09:54:43,412 - 4147054 - piper - INFO - Multi DC Database Slave is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-19 10:01:23,260 - 721717 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-19 10:01:23,266 - 721717 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-19 10:01:24,445 - 721900 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-19 10:01:24,446 - 721900 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-19 10:01:24,819 - 721900 - piper.models - INFO - Working on test environment
+2025-09-19 10:01:24,819 - 721900 - piper.models - INFO - Piper Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-19 10:01:24,819 - 721900 - piper.models - INFO - Piper Slave Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-19 10:01:25,553 - 721900 - raven.contrib.tornado.AsyncSentryClient - INFO - Raven is not configured (logging is disabled). Please see the documentation for more information.
+2025-09-19 10:01:26,171 - 721900 - piper - INFO - Using executor LocalExecutor
+2025-09-19 10:01:26,372 - 721900 - piper - INFO - Metadata Database in the other env is configured to uber@127.0.0.1:3306/piper_test
+2025-09-19 10:01:26,373 - 721900 - piper - INFO - Multi DC Database Master is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-19 10:01:26,373 - 721900 - piper - INFO - Multi DC Database Slave is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-22 10:01:39,570 - 2983830 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-22 10:01:39,578 - 2983830 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-22 10:01:40,783 - 2984004 - clay.server - INFO - Loading WSGI middleware clay.middleware.route_stats.RouteStatsMiddleware
+2025-09-22 10:01:40,784 - 2984004 - clay.server - INFO - Loading WSGI middleware piper.views.middleware.piper_route_middleware.PiperRouteStatsMiddleware
+2025-09-22 10:01:41,244 - 2984004 - piper.models - INFO - Working on test environment
+2025-09-22 10:01:41,244 - 2984004 - piper.models - INFO - Piper Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-22 10:01:41,244 - 2984004 - piper.models - INFO - Piper Slave Database is configured to uber@127.0.0.1:3306/piper_test
+2025-09-22 10:01:42,074 - 2984004 - raven.contrib.tornado.AsyncSentryClient - INFO - Raven is not configured (logging is disabled). Please see the documentation for more information.
+2025-09-22 10:01:42,775 - 2984004 - piper - INFO - Using executor LocalExecutor
+2025-09-22 10:01:42,978 - 2984004 - piper - INFO - Metadata Database in the other env is configured to uber@127.0.0.1:3306/piper_test
+2025-09-22 10:01:42,979 - 2984004 - piper - INFO - Multi DC Database Master is configured to uber@127.0.0.1:3306/multi_dc_test
+2025-09-22 10:01:42,979 - 2984004 - piper - INFO - Multi DC Database Slave is configured to uber@127.0.0.1:3306/multi_dc_test
